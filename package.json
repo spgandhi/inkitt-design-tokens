@@ -1,0 +1,33 @@
+{
+  "name": "@spgandhi/inkitt-design-tokens",
+  "version": "0.0.0-development",
+  "description": "design tokens for inkitt design system",
+  "repository": "https://github.com/spgandhi/inkitt-design-tokens.git",
+  "author": "Shreyans Gandhi <shreyans.p.gandhi@gmail.com>",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "dist": "./dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "generate-theme": "node node_modules/token-transformer src/figma-tokens --theme --themeOutputPath ./raw-tokens",
+    "generate-sd": "node scripts/style-dictionary/build-style-dictionary.js",
+    "build-index-files": "node scripts/build-index-files.js",
+    "build": "yarn generate-theme && yarn generate-sd && yarn build-index-files",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.5",
+    "semantic-release-slack-bot": "^3.5.3",
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.27",
+    "tsc": "^2.0.4"
+  }
+}
