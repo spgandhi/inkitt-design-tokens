@@ -105,18 +105,6 @@
           "type": "color"
         }
       }
-    },
-    "typography": {
-      "Typograhpy 1": {
-        "value": {
-          "fontFamily": "Inter",
-          "fontWeight": "bold",
-          "lineHeight": "24",
-          "fontSize": "24",
-          "letterSpacing": "0"
-        },
-        "type": "typography"
-      }
     }
   }
 }
