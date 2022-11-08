@@ -1,5 +1,67 @@
 {
   "color": {
+    "text": {
+      "body": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "bodyLight": {
+        "value": "#D7D7DD",
+        "type": "color"
+      },
+      "bodyLighter": {
+        "value": "#8E8E92",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "#1B1B1C",
+        "type": "color"
+      },
+      "inverseLight": {
+        "value": "#444446",
+        "type": "color"
+      },
+      "inverseLighter": {
+        "value": "#8E8E92",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "body": {
+        "value": "#1B1B1C",
+        "type": "color"
+      },
+      "bodyLight": {
+        "value": "#444446",
+        "type": "color"
+      },
+      "inverseLight": {
+        "value": "#D7D7DD",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "#FFFFFF",
+        "type": "color"
+      }
+    },
+    "border": {
+      "body": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "bodyLight": {
+        "value": "#B1B1B6",
+        "type": "color"
+      },
+      "inverseLight": {
+        "value": "#67676A",
+        "type": "color"
+      },
+      "inverse": {
+        "value": "#1B1B1C",
+        "type": "color"
+      }
+    },
     "neutral": {
       "100": {
         "value": "#FFFFFF",
@@ -40,7 +102,7 @@
     },
     "primary": {
       "100": {
-        "value": "#7a84c1",
+        "value": "#66BE9E",
         "type": "color"
       },
       "200": {
@@ -48,11 +110,11 @@
         "type": "color"
       },
       "300": {
-        "value": "#3d4db4",
+        "value": "#00925E",
         "type": "color"
       },
       "400": {
-        "value": "#bb1456",
+        "value": "#00754B",
         "type": "color"
       },
       "500": {
