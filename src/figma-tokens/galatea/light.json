@@ -166,13 +166,5 @@
         "type": "color"
       }
     }
-  },
-  "typography": {
-    "h1": {
-      "value": {
-        "fontFamily": "24"
-      },
-      "type": "typography"
-    }
   }
 }
