@@ -1,0 +1,8 @@
+{
+  "tokenSetOrder": [
+    "galatea/global",
+    "galatea/light",
+    "galatea/dark",
+    "inkitt/core"
+  ]
+}
