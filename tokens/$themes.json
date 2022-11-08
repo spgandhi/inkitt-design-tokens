@@ -5,8 +5,8 @@
     "selectedTokenSets": {
       "galatea/light": "enabled",
       "galatea/dark": "disabled",
-      "galatea/core": "source",
-      "inkitt/core": "disabled"
+      "inkitt/core": "disabled",
+      "galatea/global": "source"
     },
     "$figmaStyleReferences": {
       "light.text.bodyLighter": "S:adaf5d9b5081b6220a8f6cadde65ee5f35d80d62,",
@@ -92,8 +92,8 @@
     "selectedTokenSets": {
       "galatea/light": "disabled",
       "galatea/dark": "enabled",
-      "galatea/core": "source",
-      "inkitt/core": "disabled"
+      "inkitt/core": "disabled",
+      "galatea/global": "source"
     },
     "$figmaStyleReferences": {
       "dark.text.body": "S:8b0e416a1c21fb0cd6d48881b56c1dd816beb2d0,",
