@@ -1,6 +1,14 @@
 {
   "color": {
     "text": {
+      "body": {
+        "value": "{global.color.neutral.900}",
+        "type": "color"
+      },
+      "bodyLight": {
+        "value": "{global.color.neutral.700}",
+        "type": "color"
+      },
       "bodyLighter": {
         "value": "{global.color.neutral.500}",
         "type": "color"
