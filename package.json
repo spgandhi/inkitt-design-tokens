@@ -1,12 +1,14 @@
 {
   "name": "@spgandhi/inkitt-design-tokens",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "design tokens for inkitt design system",
   "repository": "https://github.com/spgandhi/inkitt-design-tokens.git",
   "author": "Shreyans Gandhi <shreyans.p.gandhi@gmail.com>",
   "license": "MIT",
   "main": "./dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "generate-theme": "node node_modules/token-transformer src/figma-tokens --theme --themeOutputPath src/theme-tokens",
     "generate-sd": "node scripts/style-dictionary/build-style-dictionary.js",
