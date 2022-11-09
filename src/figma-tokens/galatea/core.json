@@ -37,6 +37,20 @@
     "xxl": {
       "value": "64",
       "type": "spacing"
+    },
+    "screen": {
+      "default": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "36",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "48",
+        "type": "spacing"
+      }
     }
   },
   "fontWeight": {
