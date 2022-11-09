@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 08 Nov 2022 19:25:02 GMT
+ * Generated on Wed, 09 Nov 2022 02:15:13 GMT
  */
 
 module.exports = {
@@ -814,6 +814,1034 @@ module.exports = {
           "color",
           "error",
           "500"
+        ]
+      }
+    }
+  },
+  "borderRadius": {
+    "sm": {
+      "value": 4,
+      "type": "borderRadius",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 4,
+        "type": "borderRadius"
+      },
+      "name": "BorderRadiusSm",
+      "attributes": {
+        "category": "borderRadius",
+        "type": "sm"
+      },
+      "path": [
+        "borderRadius",
+        "sm"
+      ]
+    },
+    "md": {
+      "value": 8,
+      "type": "borderRadius",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 8,
+        "type": "borderRadius"
+      },
+      "name": "BorderRadiusMd",
+      "attributes": {
+        "category": "borderRadius",
+        "type": "md"
+      },
+      "path": [
+        "borderRadius",
+        "md"
+      ]
+    },
+    "lg": {
+      "value": 16,
+      "type": "borderRadius",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 16,
+        "type": "borderRadius"
+      },
+      "name": "BorderRadiusLg",
+      "attributes": {
+        "category": "borderRadius",
+        "type": "lg"
+      },
+      "path": [
+        "borderRadius",
+        "lg"
+      ]
+    }
+  },
+  "spacing": {
+    "xs": {
+      "value": 4,
+      "type": "spacing",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "name": "SpacingXs",
+      "attributes": {
+        "category": "spacing",
+        "type": "xs"
+      },
+      "path": [
+        "spacing",
+        "xs"
+      ]
+    },
+    "sm": {
+      "value": 8,
+      "type": "spacing",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "name": "SpacingSm",
+      "attributes": {
+        "category": "spacing",
+        "type": "sm"
+      },
+      "path": [
+        "spacing",
+        "sm"
+      ]
+    },
+    "md": {
+      "value": 16,
+      "type": "spacing",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "name": "SpacingMd",
+      "attributes": {
+        "category": "spacing",
+        "type": "md"
+      },
+      "path": [
+        "spacing",
+        "md"
+      ]
+    },
+    "lg": {
+      "value": 32,
+      "type": "spacing",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 32,
+        "type": "spacing"
+      },
+      "name": "SpacingLg",
+      "attributes": {
+        "category": "spacing",
+        "type": "lg"
+      },
+      "path": [
+        "spacing",
+        "lg"
+      ]
+    },
+    "xl": {
+      "value": 48,
+      "type": "spacing",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 48,
+        "type": "spacing"
+      },
+      "name": "SpacingXl",
+      "attributes": {
+        "category": "spacing",
+        "type": "xl"
+      },
+      "path": [
+        "spacing",
+        "xl"
+      ]
+    },
+    "xxl": {
+      "value": 64,
+      "type": "spacing",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 64,
+        "type": "spacing"
+      },
+      "name": "SpacingXxl",
+      "attributes": {
+        "category": "spacing",
+        "type": "xxl"
+      },
+      "path": [
+        "spacing",
+        "xxl"
+      ]
+    },
+    "screen": {
+      "default": {
+        "value": 24,
+        "type": "spacing",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "spacing"
+        },
+        "name": "SpacingScreenDefault",
+        "attributes": {
+          "category": "spacing",
+          "type": "screen",
+          "item": "default"
+        },
+        "path": [
+          "spacing",
+          "screen",
+          "default"
+        ]
+      },
+      "md": {
+        "value": 36,
+        "type": "spacing",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": 36,
+          "type": "spacing"
+        },
+        "name": "SpacingScreenMd",
+        "attributes": {
+          "category": "spacing",
+          "type": "screen",
+          "item": "md"
+        },
+        "path": [
+          "spacing",
+          "screen",
+          "md"
+        ]
+      },
+      "lg": {
+        "value": 48,
+        "type": "spacing",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": 48,
+          "type": "spacing"
+        },
+        "name": "SpacingScreenLg",
+        "attributes": {
+          "category": "spacing",
+          "type": "screen",
+          "item": "lg"
+        },
+        "path": [
+          "spacing",
+          "screen",
+          "lg"
+        ]
+      }
+    }
+  },
+  "fontWeight": {
+    "light": {
+      "value": 200,
+      "type": "fontWeights",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 200,
+        "type": "fontWeights"
+      },
+      "name": "FontWeightLight",
+      "attributes": {
+        "category": "fontWeight",
+        "type": "light"
+      },
+      "path": [
+        "fontWeight",
+        "light"
+      ]
+    },
+    "normal": {
+      "value": 400,
+      "type": "fontWeights",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 400,
+        "type": "fontWeights"
+      },
+      "name": "FontWeightNormal",
+      "attributes": {
+        "category": "fontWeight",
+        "type": "normal"
+      },
+      "path": [
+        "fontWeight",
+        "normal"
+      ]
+    },
+    "semibold": {
+      "value": 600,
+      "type": "fontWeights",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 600,
+        "type": "fontWeights"
+      },
+      "name": "FontWeightSemibold",
+      "attributes": {
+        "category": "fontWeight",
+        "type": "semibold"
+      },
+      "path": [
+        "fontWeight",
+        "semibold"
+      ]
+    },
+    "bold": {
+      "value": 700,
+      "type": "fontWeights",
+      "filePath": "src/theme-tokens/galateaDark.json",
+      "isSource": true,
+      "original": {
+        "value": 700,
+        "type": "fontWeights"
+      },
+      "name": "FontWeightBold",
+      "attributes": {
+        "category": "fontWeight",
+        "type": "bold"
+      },
+      "path": [
+        "fontWeight",
+        "bold"
+      ]
+    }
+  },
+  "typography": {
+    "xs": {
+      "light": {
+        "value": {
+          "fontWeight": 200,
+          "lineHeight": 20,
+          "fontSize": 12
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 200,
+            "lineHeight": 20,
+            "fontSize": 12
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXsLight",
+        "attributes": {
+          "category": "typography",
+          "type": "xs",
+          "item": "light"
+        },
+        "path": [
+          "typography",
+          "xs",
+          "light"
+        ]
+      },
+      "normal": {
+        "value": {
+          "fontWeight": 400,
+          "lineHeight": 20,
+          "fontSize": 12
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 400,
+            "lineHeight": 20,
+            "fontSize": 12
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXsNormal",
+        "attributes": {
+          "category": "typography",
+          "type": "xs",
+          "item": "normal"
+        },
+        "path": [
+          "typography",
+          "xs",
+          "normal"
+        ]
+      },
+      "semibold": {
+        "value": {
+          "fontWeight": 600,
+          "lineHeight": 20,
+          "fontSize": 12
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 600,
+            "lineHeight": 20,
+            "fontSize": 12
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXsSemibold",
+        "attributes": {
+          "category": "typography",
+          "type": "xs",
+          "item": "semibold"
+        },
+        "path": [
+          "typography",
+          "xs",
+          "semibold"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontWeight": 700,
+          "lineHeight": 20,
+          "fontSize": 12
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 700,
+            "lineHeight": 20,
+            "fontSize": 12
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXsBold",
+        "attributes": {
+          "category": "typography",
+          "type": "xs",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "xs",
+          "bold"
+        ]
+      }
+    },
+    "sm": {
+      "light": {
+        "value": {
+          "fontWeight": 200,
+          "lineHeight": 22,
+          "fontSize": 14
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 200,
+            "lineHeight": 22,
+            "fontSize": 14
+          },
+          "type": "typography"
+        },
+        "name": "TypographySmLight",
+        "attributes": {
+          "category": "typography",
+          "type": "sm",
+          "item": "light"
+        },
+        "path": [
+          "typography",
+          "sm",
+          "light"
+        ]
+      },
+      "normal": {
+        "value": {
+          "fontWeight": 400,
+          "lineHeight": 22,
+          "fontSize": 14
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 400,
+            "lineHeight": 22,
+            "fontSize": 14
+          },
+          "type": "typography"
+        },
+        "name": "TypographySmNormal",
+        "attributes": {
+          "category": "typography",
+          "type": "sm",
+          "item": "normal"
+        },
+        "path": [
+          "typography",
+          "sm",
+          "normal"
+        ]
+      },
+      "semibold": {
+        "value": {
+          "fontWeight": 600,
+          "lineHeight": 22,
+          "fontSize": 14
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 600,
+            "lineHeight": 22,
+            "fontSize": 14
+          },
+          "type": "typography"
+        },
+        "name": "TypographySmSemibold",
+        "attributes": {
+          "category": "typography",
+          "type": "sm",
+          "item": "semibold"
+        },
+        "path": [
+          "typography",
+          "sm",
+          "semibold"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontWeight": 700,
+          "lineHeight": 22,
+          "fontSize": 14
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 700,
+            "lineHeight": 22,
+            "fontSize": 14
+          },
+          "type": "typography"
+        },
+        "name": "TypographySmBold",
+        "attributes": {
+          "category": "typography",
+          "type": "sm",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "sm",
+          "bold"
+        ]
+      }
+    },
+    "md": {
+      "light": {
+        "value": {
+          "fontWeight": 200,
+          "lineHeight": 24,
+          "fontSize": 16
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 200,
+            "lineHeight": 24,
+            "fontSize": 16
+          },
+          "type": "typography"
+        },
+        "name": "TypographyMdLight",
+        "attributes": {
+          "category": "typography",
+          "type": "md",
+          "item": "light"
+        },
+        "path": [
+          "typography",
+          "md",
+          "light"
+        ]
+      },
+      "normal": {
+        "value": {
+          "fontWeight": 400,
+          "lineHeight": 24,
+          "fontSize": 16
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 400,
+            "lineHeight": 24,
+            "fontSize": 16
+          },
+          "type": "typography"
+        },
+        "name": "TypographyMdNormal",
+        "attributes": {
+          "category": "typography",
+          "type": "md",
+          "item": "normal"
+        },
+        "path": [
+          "typography",
+          "md",
+          "normal"
+        ]
+      },
+      "semibold": {
+        "value": {
+          "fontWeight": 600,
+          "lineHeight": 24,
+          "fontSize": 16
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 600,
+            "lineHeight": 24,
+            "fontSize": 16
+          },
+          "type": "typography"
+        },
+        "name": "TypographyMdSemibold",
+        "attributes": {
+          "category": "typography",
+          "type": "md",
+          "item": "semibold"
+        },
+        "path": [
+          "typography",
+          "md",
+          "semibold"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontWeight": 700,
+          "lineHeight": 24,
+          "fontSize": 16
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 700,
+            "lineHeight": 24,
+            "fontSize": 16
+          },
+          "type": "typography"
+        },
+        "name": "TypographyMdBold",
+        "attributes": {
+          "category": "typography",
+          "type": "md",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "md",
+          "bold"
+        ]
+      }
+    },
+    "lg": {
+      "light": {
+        "value": {
+          "fontWeight": 200,
+          "lineHeight": 26,
+          "fontSize": 20
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 200,
+            "lineHeight": 26,
+            "fontSize": 20
+          },
+          "type": "typography"
+        },
+        "name": "TypographyLgLight",
+        "attributes": {
+          "category": "typography",
+          "type": "lg",
+          "item": "light"
+        },
+        "path": [
+          "typography",
+          "lg",
+          "light"
+        ]
+      },
+      "normal": {
+        "value": {
+          "fontWeight": 400,
+          "lineHeight": 26,
+          "fontSize": 20
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 400,
+            "lineHeight": 26,
+            "fontSize": 20
+          },
+          "type": "typography"
+        },
+        "name": "TypographyLgNormal",
+        "attributes": {
+          "category": "typography",
+          "type": "lg",
+          "item": "normal"
+        },
+        "path": [
+          "typography",
+          "lg",
+          "normal"
+        ]
+      },
+      "semibold": {
+        "value": {
+          "fontWeight": 600,
+          "lineHeight": 26,
+          "fontSize": 20
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 600,
+            "lineHeight": 26,
+            "fontSize": 20
+          },
+          "type": "typography"
+        },
+        "name": "TypographyLgSemibold",
+        "attributes": {
+          "category": "typography",
+          "type": "lg",
+          "item": "semibold"
+        },
+        "path": [
+          "typography",
+          "lg",
+          "semibold"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontWeight": 700,
+          "lineHeight": 26,
+          "fontSize": 20
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 700,
+            "lineHeight": 26,
+            "fontSize": 20
+          },
+          "type": "typography"
+        },
+        "name": "TypographyLgBold",
+        "attributes": {
+          "category": "typography",
+          "type": "lg",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "lg",
+          "bold"
+        ]
+      }
+    },
+    "xl": {
+      "light": {
+        "value": {
+          "fontWeight": 200,
+          "lineHeight": 28,
+          "fontSize": 24
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 200,
+            "lineHeight": 28,
+            "fontSize": 24
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXlLight",
+        "attributes": {
+          "category": "typography",
+          "type": "xl",
+          "item": "light"
+        },
+        "path": [
+          "typography",
+          "xl",
+          "light"
+        ]
+      },
+      "normal": {
+        "value": {
+          "fontWeight": 400,
+          "lineHeight": 28,
+          "fontSize": 24
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 400,
+            "lineHeight": 28,
+            "fontSize": 24
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXlNormal",
+        "attributes": {
+          "category": "typography",
+          "type": "xl",
+          "item": "normal"
+        },
+        "path": [
+          "typography",
+          "xl",
+          "normal"
+        ]
+      },
+      "semibold": {
+        "value": {
+          "fontWeight": 600,
+          "lineHeight": 28,
+          "fontSize": 24
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 600,
+            "lineHeight": 28,
+            "fontSize": 24
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXlSemibold",
+        "attributes": {
+          "category": "typography",
+          "type": "xl",
+          "item": "semibold"
+        },
+        "path": [
+          "typography",
+          "xl",
+          "semibold"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontWeight": 700,
+          "lineHeight": 28,
+          "fontSize": 24
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 700,
+            "lineHeight": 28,
+            "fontSize": 24
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXlBold",
+        "attributes": {
+          "category": "typography",
+          "type": "xl",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "xl",
+          "bold"
+        ]
+      }
+    },
+    "xxl": {
+      "light": {
+        "value": {
+          "fontWeight": 200,
+          "lineHeight": 30,
+          "fontSize": 28
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 200,
+            "lineHeight": 30,
+            "fontSize": 28
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXxlLight",
+        "attributes": {
+          "category": "typography",
+          "type": "xxl",
+          "item": "light"
+        },
+        "path": [
+          "typography",
+          "xxl",
+          "light"
+        ]
+      },
+      "normal": {
+        "value": {
+          "fontWeight": 400,
+          "lineHeight": 30,
+          "fontSize": 28
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 400,
+            "lineHeight": 30,
+            "fontSize": 28
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXxlNormal",
+        "attributes": {
+          "category": "typography",
+          "type": "xxl",
+          "item": "normal"
+        },
+        "path": [
+          "typography",
+          "xxl",
+          "normal"
+        ]
+      },
+      "semibold": {
+        "value": {
+          "fontWeight": 600,
+          "lineHeight": 30,
+          "fontSize": 28
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 600,
+            "lineHeight": 30,
+            "fontSize": 28
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXxlSemibold",
+        "attributes": {
+          "category": "typography",
+          "type": "xxl",
+          "item": "semibold"
+        },
+        "path": [
+          "typography",
+          "xxl",
+          "semibold"
+        ]
+      },
+      "bold": {
+        "value": {
+          "fontWeight": 700,
+          "lineHeight": 30,
+          "fontSize": 28
+        },
+        "type": "typography",
+        "filePath": "src/theme-tokens/galateaDark.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontWeight": 700,
+            "lineHeight": 30,
+            "fontSize": 28
+          },
+          "type": "typography"
+        },
+        "name": "TypographyXxlBold",
+        "attributes": {
+          "category": "typography",
+          "type": "xxl",
+          "item": "bold"
+        },
+        "path": [
+          "typography",
+          "xxl",
+          "bold"
         ]
       }
     }

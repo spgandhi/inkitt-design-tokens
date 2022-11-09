@@ -1,7 +1,7 @@
 const StyleDictionary = require('style-dictionary');
 const {getSDConfig} = require('./config.base');
 
-const outputFolder = './src/tokens/'
+const outputFolder = './dist/tokens/'
 
 const galateaLightConfig = getSDConfig({
   source: ['src/theme-tokens/galateaLight**.json'],

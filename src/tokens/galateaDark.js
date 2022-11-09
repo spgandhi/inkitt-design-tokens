@@ -1,6 +1,6 @@
 /**
 * Do not edit directly
-* Generated on Tue, 08 Nov 2022 19:25:02 GMT
+* Generated on Wed, 09 Nov 2022 02:15:13 GMT
 */
 
 module.exports = {
@@ -56,6 +56,164 @@ module.exports = {
       "300": "#db555a",
       "400": "#af4448",
       "500": "#833336"
+    }
+  },
+  "borderRadius": {
+    "sm": 4,
+    "md": 8,
+    "lg": 16
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 32,
+    "xl": 48,
+    "xxl": 64,
+    "screen": {
+      "default": 24,
+      "md": 36,
+      "lg": 48
+    }
+  },
+  "fontWeight": {
+    "light": 200,
+    "normal": 400,
+    "semibold": 600,
+    "bold": 700
+  },
+  "typography": {
+    "xs": {
+      "light": {
+        "fontWeight": 200,
+        "lineHeight": 20,
+        "fontSize": 12
+      },
+      "normal": {
+        "fontWeight": 400,
+        "lineHeight": 20,
+        "fontSize": 12
+      },
+      "semibold": {
+        "fontWeight": 600,
+        "lineHeight": 20,
+        "fontSize": 12
+      },
+      "bold": {
+        "fontWeight": 700,
+        "lineHeight": 20,
+        "fontSize": 12
+      }
+    },
+    "sm": {
+      "light": {
+        "fontWeight": 200,
+        "lineHeight": 22,
+        "fontSize": 14
+      },
+      "normal": {
+        "fontWeight": 400,
+        "lineHeight": 22,
+        "fontSize": 14
+      },
+      "semibold": {
+        "fontWeight": 600,
+        "lineHeight": 22,
+        "fontSize": 14
+      },
+      "bold": {
+        "fontWeight": 700,
+        "lineHeight": 22,
+        "fontSize": 14
+      }
+    },
+    "md": {
+      "light": {
+        "fontWeight": 200,
+        "lineHeight": 24,
+        "fontSize": 16
+      },
+      "normal": {
+        "fontWeight": 400,
+        "lineHeight": 24,
+        "fontSize": 16
+      },
+      "semibold": {
+        "fontWeight": 600,
+        "lineHeight": 24,
+        "fontSize": 16
+      },
+      "bold": {
+        "fontWeight": 700,
+        "lineHeight": 24,
+        "fontSize": 16
+      }
+    },
+    "lg": {
+      "light": {
+        "fontWeight": 200,
+        "lineHeight": 26,
+        "fontSize": 20
+      },
+      "normal": {
+        "fontWeight": 400,
+        "lineHeight": 26,
+        "fontSize": 20
+      },
+      "semibold": {
+        "fontWeight": 600,
+        "lineHeight": 26,
+        "fontSize": 20
+      },
+      "bold": {
+        "fontWeight": 700,
+        "lineHeight": 26,
+        "fontSize": 20
+      }
+    },
+    "xl": {
+      "light": {
+        "fontWeight": 200,
+        "lineHeight": 28,
+        "fontSize": 24
+      },
+      "normal": {
+        "fontWeight": 400,
+        "lineHeight": 28,
+        "fontSize": 24
+      },
+      "semibold": {
+        "fontWeight": 600,
+        "lineHeight": 28,
+        "fontSize": 24
+      },
+      "bold": {
+        "fontWeight": 700,
+        "lineHeight": 28,
+        "fontSize": 24
+      }
+    },
+    "xxl": {
+      "light": {
+        "fontWeight": 200,
+        "lineHeight": 30,
+        "fontSize": 28
+      },
+      "normal": {
+        "fontWeight": 400,
+        "lineHeight": 30,
+        "fontSize": 28
+      },
+      "semibold": {
+        "fontWeight": 600,
+        "lineHeight": 30,
+        "fontSize": 28
+      },
+      "bold": {
+        "fontWeight": 700,
+        "lineHeight": 30,
+        "fontSize": 28
+      }
     }
   }
 }
