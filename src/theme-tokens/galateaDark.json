@@ -2,7 +2,7 @@
   "color": {
     "text": {
       "body": {
-        "value": "#FFFFFF",
+        "value": "#F9F9FC",
         "type": "color"
       },
       "bodyLight": {
@@ -40,13 +40,13 @@
         "type": "color"
       },
       "inverse": {
-        "value": "#FFFFFF",
+        "value": "#F9F9FC",
         "type": "color"
       }
     },
     "border": {
       "body": {
-        "value": "#FFFFFF",
+        "value": "#F9F9FC",
         "type": "color"
       },
       "bodyLight": {
@@ -64,7 +64,7 @@
     },
     "neutral": {
       "100": {
-        "value": "#FFFFFF",
+        "value": "#F9F9FC",
         "type": "color"
       },
       "200": {

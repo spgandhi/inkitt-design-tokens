@@ -14,7 +14,7 @@
         "type": "color"
       },
       "inverse": {
-        "value": "#FFFFFF",
+        "value": "#F9F9FC",
         "type": "color"
       },
       "inverseLight": {
@@ -28,7 +28,7 @@
     },
     "bg": {
       "body": {
-        "value": "#FFFFFF",
+        "value": "#F9F9FC",
         "type": "color"
       },
       "bodyLight": {
@@ -58,13 +58,13 @@
         "type": "color"
       },
       "inverse": {
-        "value": "#FFFFFF",
+        "value": "#F9F9FC",
         "type": "color"
       }
     },
     "neutral": {
       "100": {
-        "value": "#FFFFFF",
+        "value": "#F9F9FC",
         "type": "color"
       },
       "200": {
