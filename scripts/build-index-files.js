@@ -6,5 +6,7 @@ const fileNames = fs.readdirSync('./dist/tokens')
 
 const exportStatements = fileNames.map(fileName => `export{default as ${fileName}} from './tokens/${fileName}';`).join('\n');
 
-fs.writeFileSync('dist/index.js', exportStatements);
+const commonJSExportStatements = fileNames.map(fileName => `module.exports.${fileName} = require('./tokens/${fileName}');`).join('\n');
+
+fs.writeFileSync('dist/index.js', commonJSExportStatements);
 fs.writeFileSync('dist/index.d.ts', exportStatements);
