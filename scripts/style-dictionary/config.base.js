@@ -1,10 +1,15 @@
 const _ = require('lodash');
 
-const generateFlatTokens = (dictionary, isTypes) => {
+// for these tokens, we set the color type as string because 
+// their values are going to be different for both light and dark theme
+// and we are then it does not work well with typescript for `styled-components` package DefaultTheme type.
+const themeKeyWords = ['text', 'bg', 'border'];
+
+const generateFlatTokens = ({dictionary, isTypesFile}) => {
   const tokens = {};
   const assignValueToObject = (element) => {
     const path = element.path;
-    const hasThemeKeyWord = false;// isTypes && themeKeyWords.some(keyword => path[1].indexOf(keyword) > -1);
+    const hasThemeKeyWord = isTypesFile && themeKeyWords.some(keyword => path[1].indexOf(keyword) > -1);
     _.set(tokens, path, hasThemeKeyWord ? 'string' : element.value);
   };
 
@@ -31,13 +36,13 @@ module.exports = {
     format: {
       'custom/js/nested': ({ dictionary, platform }) => {
         const header = `/**\n* Do not edit directly\n* Generated on ${new Date().toGMTString()}\n*/\n\nmodule.exports = `;
-        const tokens = generateFlatTokens(dictionary, false);
+        const tokens = generateFlatTokens({dictionary, isTypesFile: false});
         return `${header}${JSON.stringify(tokens, null, '  ')}`;
         
       },
       'custom/ts': ({ dictionary, platform }) => {
         const header = `/**\n* Do not edit directly\n* Generated on ${new Date().toGMTString()}\n*/\n\export default tokens;\n\ndeclare const tokens: `;
-        const tokens = generateFlatTokens(dictionary, true);
+        const tokens = generateFlatTokens({dictionary, isTypesFile: true});
         return `${header}${JSON.stringify(tokens, null, '  ')}`;
       },
     },
