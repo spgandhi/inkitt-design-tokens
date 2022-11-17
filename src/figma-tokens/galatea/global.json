@@ -3,7 +3,7 @@
     "color": {
       "neutral": {
         "100": {
-          "value": "#F9F9FC",
+          "value": "#ffffff",
           "type": "color"
         },
         "200": {
@@ -36,10 +36,6 @@
         },
         "900": {
           "value": "#1B1B1C",
-          "type": "color"
-        },
-        "white": {
-          "value": "#ffffff",
           "type": "color"
         }
       },

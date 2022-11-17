@@ -52,8 +52,6 @@
       "color.text.inverse": "S:830869378a362ce578ae613ab130bc251c93a916,",
       "color.text.inverseLight": "S:172cacea76340bea913583a0902cd9dcd42e4877,",
       "color.text.inverseLighter": "S:107df2028787258507ae4ff18e0199138e639c6a,",
-      "color.bg.body": "S:6bd2c2259771d617243b825bf3a19918eded4b18,",
-      "color.bg.bodyLight": "S:abf2a91afb649f6fdf3a11a71e5a97ea3d465433,",
       "color.bg.inverseLight": "S:a30c2bda6855aca6b2d7b49750217c82342d658d,",
       "color.bg.inverse": "S:d9f65d232c4aa22623b4c6cb4e89429933208407,",
       "color.border.body": "S:e68cb1d8eedc4a59edb2f069daa12141663f6ecd,",
@@ -84,7 +82,9 @@
       "color.error.300": "S:21a9ee84b5fb69b325d08facb3052da5efe5eba4,",
       "color.error.400": "S:c2aa14ac5964e9e56de22adf87f9504c70bab5f3,",
       "color.error.500": "S:8c6f5e86f228b0585d0a7d6a3c9010c263eceb87,",
-      "color.text.body": "S:9dfc3425b50811bc13bbf014a04a785e9aea92f9,"
+      "color.text.body": "S:9dfc3425b50811bc13bbf014a04a785e9aea92f9,",
+      "color.bg.body100": "S:6bd2c2259771d617243b825bf3a19918eded4b18,",
+      "color.bg.body200": "S:abf2a91afb649f6fdf3a11a71e5a97ea3d465433,"
     }
   },
   {
@@ -142,8 +142,6 @@
       "color.text.inverse": "S:7651f4cf9ce48e58e09601818dfcc79f1dfdb948,",
       "color.text.inverseLight": "S:89a99e3c4d5899eacb4d5f016f9ea887cf6e2f7c,",
       "color.text.inverseLighter": "S:2d58f7544e13caa731db96c1bb5a6def374e0b8b,",
-      "color.bg.body": "S:a6bcc47e7336cb4651790a29c1404e7ff6bc86c4,",
-      "color.bg.bodyLight": "S:2fd8d909facd26aed9a367d6a64537bf88d569d7,",
       "color.bg.inverseLight": "S:66530d458b356ac0f4bf9ff74e268a62d846b93c,",
       "color.bg.inverse": "S:146ae53ed7c0012a7fe86876d0eb26e6bf63cc72,",
       "color.border.body": "S:aac7a483a242496fa13ad7b6e522bb009ae70961,",
@@ -197,7 +195,9 @@
       "typography.xxl.light": "S:8c3d4e2bb391d63dbe8892db6aa7ba0369a001d2,",
       "typography.xxl.normal": "S:dda5f6b0389e144730babfdc31a91f34af577bbf,",
       "typography.xxl.semibold": "S:b2cb88b7b0753ee36e4b29ebf83308236c06f74c,",
-      "typography.xxl.bold": "S:97e8a69a6f9095438ef62a82730928d454a836ac,"
+      "typography.xxl.bold": "S:97e8a69a6f9095438ef62a82730928d454a836ac,",
+      "color.bg.body100": "S:a6bcc47e7336cb4651790a29c1404e7ff6bc86c4,",
+      "color.bg.body200": "S:2fd8d909facd26aed9a367d6a64537bf88d569d7,"
     }
   }
 ]

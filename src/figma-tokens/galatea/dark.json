@@ -27,24 +27,40 @@
       }
     },
     "bg": {
-      "body": {
+      "body100": {
         "value": "{global.color.neutral.900}",
         "type": "color"
       },
-      "bodyLight": {
+      "body200": {
+        "value": "{global.color.neutral.800}",
+        "type": "color"
+      },
+      "body300": {
         "value": "{global.color.neutral.700}",
         "type": "color"
       },
-      "inverseLight": {
+      "body400": {
+        "value": "{global.color.neutral.600}",
+        "type": "color"
+      },
+      "inverse400": {
+        "value": "{global.color.neutral.400}",
+        "type": "color"
+      },
+      "inverse300": {
         "value": "{global.color.neutral.300}",
         "type": "color"
       },
-      "inverse": {
+      "inverse200": {
+        "value": "{global.color.neutral.200}",
+        "type": "color"
+      },
+      "inverse100": {
         "value": "{global.color.neutral.100}",
         "type": "color"
       }
     },
-    "border": {
+    "_border": {
       "body": {
         "value": "{global.color.neutral.100}",
         "type": "color"
